@@ -1,0 +1,20 @@
+# Site settings
+title: My Toolbox
+description: A collection of useful tools available on my GitHub
+baseurl: "" # the subpath of your site, e.g., /blog
+url: "https://claravnk.github.io" 
+
+# Author settings
+author:
+  name: ClaraVnk
+  email: loutre@ikmail.com
+
+# Build settings
+markdown: kramdown
+theme: minima # or any other Jekyll theme you prefer
+plugins:
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+
