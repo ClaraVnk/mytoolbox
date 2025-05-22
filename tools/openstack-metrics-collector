@@ -1,0 +1,10 @@
+---
+layout: default
+title: Openstack-metrics-collector
+---
+
+# Openstack metrics collector
+
+A toolbox for Openstack : collect metrics from various services and expose them to Prometheus for monitoring and alerting.
+
+[OpenStack Metrics Collector](https://github.com/ClaraVnk/openstack-metrics-collector)
