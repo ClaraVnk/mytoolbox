@@ -17,7 +17,7 @@ Here are some of the tools you can explore:
 
 - [OpenStack Metrics Collector](tools/openstack-metrics-collector)
 - [OpenStack Toolbox](tools/openstack-toolbox)
-- [Python Package](tools/python-package)
+- [Python Package Helper](tools/python-package)
 - [Terminal](tools/terminal)
 
 ## Contact
