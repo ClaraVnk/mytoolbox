@@ -1,67 +1,19 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ma Boîte à Outils</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #444;
-        }
-        nav a {
-            color: #fff;
-            padding: 1rem;
-            text-decoration: none;
-        }
-        nav a:hover {
-            background: #555;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        .tool {
-            background: #f4f4f4;
-            margin: 1rem 0;
-            padding: 1rem;
-            border-left: 5px solid #333;
-        }
-    </style>
+    <title>{{ page.title }}</title>
 </head>
 <body>
     <header>
-        <h1>Ma Boîte à Outils</h1>
+        <h1>{{ site.title }}</h1>
     </header>
-    <nav>
-        <a href="index.html">Accueil</a>
-        <a href="about.html">À Propos</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-    <div class="container">
-        <div class="tool">
-            <h2><a href="outil1.html">Outil 1</a></h2>
-            <p>Description de l'outil 1.</p>
-        </div>
-        <div class="tool">
-            <h2><a href="outil2.html">Outil 2</a></h2>
-            <p>Description de l'outil 2.</p>
-        </div>
-        <!-- Ajoutez d'autres outils ici -->
-    </div>
+    <main>
+        {{ content }}
+    </main>
+    <footer>
+        <p>&copy; {{ site.author.name }}</p>
+    </footer>
 </body>
 </html>

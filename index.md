@@ -15,9 +15,10 @@ This site is designed to centralize and present all my tools in an organized man
 
 Here are some of the tools you can explore:
 
-- [Tool 1](tool1.html): Brief description of Tool 1.
-- [Tool 2](tool2.html): Brief description of Tool 2.
-- [Tool 3](tool3.html): Brief description of Tool 3.
+- [OpenStack Metrics Collector](tools/openstack-metrics-collector)
+- [OpenStack Toolbox](tools/openstack-toolbox)
+- [Python Package](tools/python-package)
+- [Terminal](tools/terminal)
 
 ## Contact
 
